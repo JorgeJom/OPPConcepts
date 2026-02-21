@@ -2,13 +2,8 @@
 
 try
 {
-    var date1 = new Date();
-    var date2 = new Date(2026, 2, 28);
-    var date3 = new Date(2012, 11, 30);
-
-    Console.WriteLine(date1);
-    Console.WriteLine(date2);
-    Console.WriteLine(date3);
+    var employee = new Employee(1, "John", "Doe", true, new Date(1990, 5, 15), new Date(2020, 1, 10));
+    Console.WriteLine(employee);
 }
 catch (Exception ex)
 {
