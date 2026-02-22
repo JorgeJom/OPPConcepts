@@ -21,18 +21,18 @@ public class Date
     }
 
     public int Year
-    { 
-        get => _year; 
+    {
+        get => _year;
         set => _year = ValidateYear(value);
     }
 
     public int Month
-    { 
+    {
         get => _month;
         set => _month = ValidateMonth(value);
     }
 
-    public int Day 
+    public int Day
     {
         get => _day;
         set => _day = ValidateDay(value);
@@ -60,7 +60,7 @@ public class Date
         }
         return month;
     }
-    
+
     private int ValidateDay(int day)
     {
         if (day < 1)
@@ -86,5 +86,4 @@ public class Date
         return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     }
 }
-
 

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OPPCocepts.Backend;
+﻿namespace OPPCocepts.Backend;
 
 public abstract class Employee
 {
@@ -26,7 +22,7 @@ public abstract class Employee
     public override string ToString()
     {
         return $"{Id}\t{FirstName} {LastName}\n\t" +
-               $"Value to pay {GetValueToPay(),20:C2}";
+               $"Value to pay.....: {GetValueToPay(),20:C2}";
     }
     public abstract decimal GetValueToPay();
 }
