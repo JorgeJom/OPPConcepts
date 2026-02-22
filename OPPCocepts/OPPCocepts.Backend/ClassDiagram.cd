@@ -11,8 +11,8 @@
     <Position X="6.25" Y="0.5" Width="1.5" />
     <AssociationLine Name="BornDate" Type="OPPCocepts.Backend.Date" FixedFromPoint="true">
       <Path>
-        <Point X="6.562" Y="3.017" />
-        <Point X="6.562" Y="4" />
+        <Point X="6.938" Y="3.017" />
+        <Point X="6.938" Y="4" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="HireDate" Type="OPPCocepts.Backend.Date" FixedFromPoint="true">
@@ -40,7 +40,7 @@
       <FileName>SalaryEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="OPPConcepts.Backend.HourlyEmployee">
+  <Class Name="OPPCocepts.Backend.HourlyEmployee">
     <Position X="9.5" Y="4.25" Width="2" />
     <InheritanceLine Type="OPPCocepts.Backend.Employee" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
@@ -54,6 +54,13 @@
     <TypeIdentifier>
       <HashCode>AIAABAAAAAAAAAAEAAgAAAAAAABEAAAIAAAAAAAAAAE=</HashCode>
       <FileName>HourlyEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPPCocepts.Backend.CommisionEmploye">
+    <Position X="2.5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAAAACEAAAABAAAAAAAEAAIAAgAAAAAAAA=</HashCode>
+      <FileName>CommisionEmploye.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

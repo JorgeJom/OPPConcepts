@@ -1,6 +1,4 @@
-﻿using OPPCocepts.Backend;
-
-namespace OPPConcepts.Backend;
+﻿namespace OPPCocepts.Backend;
 
 public class HourlyEmployee : Employee
 {

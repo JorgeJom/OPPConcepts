@@ -1,5 +1,4 @@
 ﻿using OPPCocepts.Backend;
-using OPPConcepts.Backend;
 
 try
 {
@@ -13,6 +12,10 @@ try
     employees.Add(employee3);
     var employee4 = new HourlyEmployee(4040, "Kevin", "Rua", true, new Date(1998, 8, 20), new Date(2021, 6, 1), 10000, 112);
     employees.Add(employee4);
+    var employee5 = new CommisionEmploye(5050, "Sofia", "Gomez", true, new Date(1992, 12, 10), new Date(2018, 3, 15), 0.03f, 600000000);
+    employees.Add(employee5);
+    var employee6 = new CommisionEmploye(6060, "Diego", "Martinez", true, new Date(1985, 7, 30), new Date(2010, 9, 1), 0.03f, 120000000);
+    employees.Add(employee6);
 
     foreach ( var employee in employees )
     {
