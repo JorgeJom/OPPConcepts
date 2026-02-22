@@ -41,14 +41,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="OPPCocepts.Backend.HourlyEmployee">
-    <Position X="9.5" Y="4.25" Width="2" />
+    <Position X="9.75" Y="4" Width="2" />
     <InheritanceLine Type="OPPCocepts.Backend.Employee" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
         <Point X="7.75" Y="2.438" />
         <Point X="8.74" Y="2.438" />
-        <Point X="8.74" Y="3.968" />
-        <Point X="10.5" Y="3.968" />
-        <Point X="10.5" Y="4.25" />
+        <Point X="8.74" Y="3.77" />
+        <Point X="10.75" Y="3.77" />
+        <Point X="10.75" Y="4" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -57,10 +57,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="OPPCocepts.Backend.CommisionEmploye">
-    <Position X="2.5" Y="1" Width="1.75" />
+    <Position X="3.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAIAAACAAAAAAACEAAAABAAAAAAAEAAIAAgAAAAAAAA=</HashCode>
       <FileName>CommisionEmploye.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPPCocepts.Backend.BaseCommisionEmployee">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>BaseCommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
