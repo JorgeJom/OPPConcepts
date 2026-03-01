@@ -1,6 +1,6 @@
 ﻿namespace OPPCocepts.Backend;
 
-public abstract class Employee
+public abstract class Employee : IPay
 {
     protected Employee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate)
     {

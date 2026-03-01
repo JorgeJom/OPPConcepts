@@ -11,17 +11,22 @@
     <Position X="6.25" Y="0.5" Width="1.5" />
     <AssociationLine Name="BornDate" Type="OPPCocepts.Backend.Date" FixedFromPoint="true">
       <Path>
-        <Point X="6.938" Y="3.017" />
-        <Point X="6.938" Y="4" />
-      </Path>
-    </AssociationLine>
-    <AssociationLine Name="HireDate" Type="OPPCocepts.Backend.Date" FixedFromPoint="true">
-      <Path>
-        <Point X="7.562" Y="3.017" />
-        <Point X="7.562" Y="4" />
+        <Point X="6.5" Y="3.017" />
+        <Point X="6.5" Y="4" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.578" Y="0.164" />
+        <Position X="0.11" Y="0.133" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="HireDate" Type="OPPCocepts.Backend.Date" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.188" Y="3.017" />
+        <Point X="7.188" Y="3.256" />
+        <Point X="7.75" Y="3.256" />
+        <Point X="7.75" Y="4" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.057" Y="0.112" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
@@ -32,6 +37,7 @@
       <Property Name="BornDate" />
       <Property Name="HireDate" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="OPPCocepts.Backend.SalaryEmployee">
     <Position X="9.75" Y="0.75" Width="1.5" />
@@ -56,11 +62,11 @@
       <FileName>HourlyEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="OPPCocepts.Backend.CommisionEmploye">
+  <Class Name="OPPCocepts.Backend.CommisionEmployee">
     <Position X="3.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAIAAACAAAAAAACEAAAABAAAAAAAEAAIAAgAAAAAAAA=</HashCode>
-      <FileName>CommisionEmploye.cs</FileName>
+      <FileName>CommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OPPCocepts.Backend.BaseCommisionEmployee">
@@ -70,5 +76,23 @@
       <FileName>BaseCommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OPPCocepts.Backend.Invoice">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAAAAgAAAFAAAAAAAAAAAAAAAJAAIggAAAgAA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Date" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="OPPCocepts.Backend.IPay">
+    <Position X="12.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>IPay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

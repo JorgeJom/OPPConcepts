@@ -1,6 +1,6 @@
 ﻿namespace OPPCocepts.Backend;
 
-public class BaseCommisionEmployee : CommisionEmploye
+public class BaseCommisionEmployee : CommisionEmployee
 {
     private decimal _salary;
 

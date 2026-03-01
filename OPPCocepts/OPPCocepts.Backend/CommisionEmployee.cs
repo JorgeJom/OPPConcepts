@@ -1,10 +1,10 @@
 ﻿namespace OPPCocepts.Backend;
-    public class CommisionEmploye : Employee
+    public class CommisionEmployee : Employee
     {
         private float _commisionPercent;
         private decimal _sales;
 
-        public CommisionEmploye(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate, float commisionPercent, decimal sales) : base(id, firstName, lastName, isActive, bornDate, hireDate)
+        public CommisionEmployee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate, float commisionPercent, decimal sales) : base(id, firstName, lastName, isActive, bornDate, hireDate)
         {
             CommisionPercent = commisionPercent;
             Sales = sales;
